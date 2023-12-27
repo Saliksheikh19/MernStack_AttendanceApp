@@ -18,7 +18,7 @@ function App() {
   const admin = useSelector((state) => state?.user?.currentUser?.isAdmin);
   console.log(admin)
   return (
-    <BrowserRouter>
+    
   <Routes>
     <Route path="/login" element={<Login />} />
     
